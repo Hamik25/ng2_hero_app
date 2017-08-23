@@ -1,0 +1,24 @@
+<h1>{{title}}</h1>
+
+<nav>
+    <a routerLink="/dashboard">Dashboard</a>
+    <a routerLink="/heroes">Heroes</a>
+</nav>
+
+<router-outlet></router-outlet>
+
+<!-- <heroes></heroes> -->
+
+<!-- <button (click)="add(newHero)">Add New Hero</button> -->
+
+<!-- <div *ngIf="newHeroForm">
+    <h2>New Hero {{newHero.name}}</h2>
+    <div><label>id: </label>{{newHero.id}}</div>
+    <div>
+        <label>name: </label>
+        <input [(ngModel)]="newHero.name" placeholder="name"/>
+    </div>
+
+    <button (click)="saveAdd(newHero)">Save</button>
+    <button (click)="cancelAdd()">Cancel</button>
+</div> -->
